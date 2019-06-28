@@ -3,6 +3,9 @@ Set-up to configure a RPi 3b as parser from TTN GW to MySQL data store on RPi. A
 * A vanilla RPi kit with Raspbian installed
 * A TTN application set-up which is collecting data
 
+It assumes that you have bunch of nodes pushing data through a gateway to thethingsnetwork. The focus of thus demo is on confuguring the RPi depicted in diagram below.
+<img src="https://github.com/ucl-casa-ce/ttn2mysqlpi/blob/master/ttn.jpeg?raw=true" alt="TTN 2 RPI network" width="100%"/>
+
 ## Getting Started
 
 First step is to setup the RPI. Plug in monitor keyboard mouse and boot up. Open terminal and check which version of OS installed:
