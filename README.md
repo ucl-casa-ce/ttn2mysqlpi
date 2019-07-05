@@ -62,7 +62,7 @@ The next step is to setup the mysql user and database for the TTN application - 
 
 ```
 CREATE DATABASE ttnenviro90tcr;
-CREATE USER ttn@localhost IDENTIFIED BY 'ttn2019’;
+CREATE USER ttn@localhost IDENTIFIED BY "ttn2019";
 GRANT ALL PRIVILEGES ON ttnenviro90tcr.* TO ttn@localhost;
 USE ttnenviro90tcr;
 CREATE TABLE ttn_casaucl_ttnnodes (id INT AUTO_INCREMENT PRIMARY KEY, dev_id VARCHAR(255), payload_fields TEXT, time DATETIME);
