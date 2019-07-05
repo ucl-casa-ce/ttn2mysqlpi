@@ -66,8 +66,8 @@ CREATE USER ttn@localhost IDENTIFIED BY "ttn2019";
 GRANT ALL PRIVILEGES ON ttnenviro90tcr.* TO ttn@localhost;
 USE ttnenviro90tcr;
 CREATE TABLE ttn_casaucl_ttnnodes (id INT AUTO_INCREMENT PRIMARY KEY, dev_id VARCHAR(255), payload_fields TEXT, time DATETIME);
-SHOW COLUMNS FROM ttn_casaucl_enviro90tcr;
-SELECT * FROM ttn_casaucl_enviro90tcr;
+SHOW COLUMNS FROM ttn_casaucl_ttnnodes;
+SELECT * FROM ttn_casaucl_ttnnodes;
 exit
 ```
 
