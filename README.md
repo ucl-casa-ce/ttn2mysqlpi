@@ -50,7 +50,7 @@ Install MariaDB (MySQL replacement) using the notes below based on the detailed 
 sudo apt-get install mysql-server
 sudo mysql_secure_installation
 ```
-For latter I entered: no password, Y - cetools2019, Y, Y, Y, Y
+For latter I entered: no password, Y - (CREATE_YOUR_ROOT_MYSQL_PASSWORD), Y, Y, Y, Y
 
 Check that you server works and make a note of the credentials you just created.
 
@@ -62,7 +62,7 @@ The next step is to setup the mysql user and database for the TTN application - 
 
 ```
 CREATE DATABASE ttnenviro90tcr;
-CREATE USER ttn@localhost IDENTIFIED BY "ttn2019";
+CREATE USER ttn@localhost IDENTIFIED BY "(ADD_YOUR_USER_PASSWORD)";
 GRANT ALL PRIVILEGES ON ttnenviro90tcr.* TO ttn@localhost;
 USE ttnenviro90tcr;
 CREATE TABLE ttn_casaucl_ttnnodes (id INT AUTO_INCREMENT PRIMARY KEY, dev_id VARCHAR(255), payload_fields TEXT, time DATETIME);
