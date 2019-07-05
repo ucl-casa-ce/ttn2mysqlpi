@@ -44,7 +44,7 @@ sudo apt-get update
 sudo apt-get upgrade
 ```
 
-Install MariaDB (MySQL replacement) using the notes below based on the detailed instructions [at this guide](https://r00t4bl3.com/post/how-to-install-mysql-mariadb-server-on-raspberry-pi "how to install mysql on rpi")
+Install MariaDB (MySQL replacement) using the notes below based on the detailed instructions [at this guide](https://r00t4bl3.com/post/how-to-install-mysql-mariadb-server-on-raspberry-pi "how to install mysql on rpi") (Note: if you get "Unable to locate package" error then run sudo apt-get update and upgrade again).
 
 ```
 sudo apt-get install mysql-server
